@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem 8rem;
+}
+
+.header .header-head {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 63.98px;
+    font-weight: 700;
+}
+
+.header-body {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.header-body .mini-logo {
+    height: 3px;
+    width: 3px;
+}
+
+.header-body .text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 17.07px;
+    max-width:55%; 
+    color: #4F4F4F;
+    text-align: justify;
+}
+
+.main {
+    margin-bottom: 2rem;
+}
+
+.main .image img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: fill;
+    
+}
+
+.image {
+    margin-bottom: 2.5rem;
+}
+
+.infosteps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps {
+    width: 60%;
+    text-align: justify;
+}
+
+.steps h4 {
+    margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 700;
+    font-size: 24px;
+    line-height: 31.99px;
+}
+
+.steps h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color:#333333;
+    margin-bottom: 1.5rem;
+}
+
+.graham-cracker-crust {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cheese-cake {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.graham-cracker-crust div, .cheese-cake div {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 17px;
+}
+
+b {
+    font-weight:900;
+    color: black;
+}
+
+.graham-cracker-crust div label, .cheese-cake div label{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: -6px;
+    color:#333333;
+}
+
+#checkbox7 {
+    font-style: italic;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.instructions > h5 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven {
+    display: flex;
+    gap: 17px;
+}
+
+.instructions .number {
+    padding: 0px 13px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.99px;
+    background: #F2994A;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.instructions .text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.source {
+    text-align: left;
+}
+
+.source a {
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 57px 6%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    height: 40%;
+    min-width: 20%;
+}
+
+
+.material-symbols-outlined, .time .servings .bottom {
+    color: #F2994A;
+}
+
+.time .servings, .time .prep-time, .time .cook-time, .time .total-time {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.time .servings, .time .prep-time, .time .cook-time {
+    padding-bottom: 43px;
+}
+
+.time .text .top {
+    font-size: 10px;
+    color: #BDBDBD;
+    padding-bottom: 4px;
+    font-weight: 700;
+    line-height: 12.19px;
+}
+
+.time .text .bottom {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        padding: 2rem 1.5rem;
+    }
+
+    .header .header-head {
+        font-size: 24px;
+        line-height: 31.99px;
+    }
+
+    .header-body .text {
+        font-size: 12px;
+        line-height: 14.63px;
+        max-width: 100%;
+    }
+
+    .time .text .top {
+        font-size: 8px;
+    }
+
+    .time .text .bottom {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .infosteps {
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .times {
+        display: flex;
+        align-items: center;
+        gap: 11%;
+    }
+
+    .time .prep-time, .time .cook-time {
+        padding-bottom: 0px;
+    }
+
+    .time .servings {
+        padding-bottom: 20px;
+    }
+
+    .time {
+        padding: 0;
+        box-shadow: none;
+        margin-bottom: 30px;
+    }
+
+    .steps {
+        width: 100%;
+    }
+
+    .source a {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .times {
+        gap: 8%;
+    }
+}
