@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://{https://recipe-page-by-sotun.netlify.app/}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{https://github.com/Sotun-1010/Recipe-Page}">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://{https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht}">
       Challenge
     </a>
   </h3>
@@ -41,7 +41,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo? Her is the link to my [live demo](https://interior-consultant-master-by-sotun.netlify.app/).
+- Where can I see your demo? Her is the link to my [live demo](https://recipe-page-by-sotun.netlify.app/).
 - What was your experience? Quite fun and interesting.
 - What have you learned/improved? I improved my understanding of responsiveness
 - Your wisdom? :) Keep being consistent and tenacious. Never give up.
