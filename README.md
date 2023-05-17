@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://recipe-page-by-sotun.netlify.app/}">
+    <a href="https://https://recipe-page-by-sotun.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://github.com/Sotun-1010/Recipe-Page}">
+    <a href="https://github.com/Sotun-1010/Recipe-Page">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht}">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
